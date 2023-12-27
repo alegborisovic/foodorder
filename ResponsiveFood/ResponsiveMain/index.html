@@ -1,0 +1,251 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>YemekWebDeneme</title>
+</head>
+<body>
+    <!-- sidebar -->
+    <div class="sidebar">
+        <!-- Logo -->
+        <h1 class="logo">FoodTime</h1>
+
+        <!-- List of menu -->
+        <div class="sidebar-menus">
+            <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
+            <a href="#"><ion-icon name="wallet-outline"></ion-icon>Wallet</a>
+            <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notifications</a>
+            <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Setting</a>
+        </div>
+        <!--Logout part -->
+        <div class="sidebar-logout">
+            <a href="#"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="main">
+        <!-- Main navbar -->
+        <div class="main-navbar">
+            <!-- menu when open with mobile phone-->
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+            <!-- Search Bar -->
+            <div class="search">
+                <input type="text" placeholder="What you want to eat?">
+                <button class="search-btn">Search</button>
+            </div>
+            <!-- Profile İcon on left side -->
+            <div class="prfile">
+                <a class="cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
+                <a class="user" href="#"><ion-icon name="person-outline"></ion-icon></a>
+            </div>
+        </div>
+        <!-- main highlight-->
+        <div class="main-highlight">
+            <!-- title section and arrow -->
+            <div class="main-header">
+                <h2 class="main-title">Recommendations</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+            </div>
+            <!-- highlight menu -->
+            <div class="highlight-wrapper">
+                <div class="highlight-card">
+                    <img class="highlight-img" src="https://www.arbys.com.tr/cmsfiles/products/akdeniz-salata-1.png?v=108">
+                    <div class="highlight-desc">
+                        <h4>Fresh Salad</h4>
+                        <p>$42.50</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="https://media.istockphoto.com/id/520410807/tr/fotoğraf/cheeseburger.jpg?s=612x612&w=0&k=20&c=JJhxZmkknre44y7y6TFexJMN-sqKt2iwwg8LIIawDbA=">
+                    <div class="highlight-desc">
+                        <h4>Big Burger</h4>
+                        <p>$45</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="https://www.shutterstock.com/image-photo/close-shot-hot-latte-coffee-260nw-2248642713.jpg">
+                    <div class="highlight-desc">
+                        <h4>Cafe Latte</h4>
+                        <p>$15</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="https://media.istockphoto.com/id/185006411/tr/fotoğraf/cooked-roast-beef-on-a-white-plate.jpg?s=612x612&w=0&k=20&c=1nk9tmSjdH9HTm1qrTFCobKIe2bZfck2mvgcKiw_tPI=">
+                    <div class="highlight-desc">
+                        <h4>Luxury Steak</h4>
+                        <p>$140</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main menus / orders -->
+        <div class="main-menus">
+            <!-- filter section -->
+            <div class="main-filter">
+                <div>
+                    <h2 class="main_title">Menu <br>Category</h2>
+                    <div class="main-arrow">
+                        <ion-icon class="back-menus" name="chevron-back-circle-outline"></ion-icon>
+                        <ion-icon class="next-menus" name="chevron-forward-circle-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="filter-wrapper">
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="restaurant-outline"></ion-icon>
+                        </div>
+                        <p>All Menus</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="fast-food-outline"></ion-icon>
+                        </div>
+                        <p>Burger</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="pizza-outline"></ion-icon>
+                        </div>
+                        <p>Pizza</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name ="wine-outline"></ion-icon>
+                        </div>
+                        <p>Wine</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="ice-cream-outline"></ion-icon>
+                        </div>
+                        <p>Ice Cream</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="cafe-outline"></ion-icon>
+                        </div>
+                        <p>Coffee</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="fish-outline"></ion-icon>
+                        </div>
+                        <p>Sea Food</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="nutrition-outline"></ion-icon>
+                        </div>
+                        <p>Healthy</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="divider">
+            <!-- list of food -->
+            <div class="main-detail">
+                <h2 class="main-title">Choose Order</h2>
+                <div class="detail-wrapper">
+                    <div class="detail-card">
+                        <img class="detail-img" src="https://www.wellplated.com/wp-content/uploads/2023/01/Air-Fryer-Chicken-Tenders-Recipe.jpg">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4>Chicken Tender</h4>
+                                <p class="detail-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quos eligendi quaerat dignissimos totam, ullam porro doloremque facilis atque maxime placeat laborum repellendus minus nam ea, reprehenderit commodi debitis nulla.</p>
+                                <p class="price">$150</p>
+                            </div> 
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="https://www.foodandwine.com/thmb/RNlE-fVMUeXKtm6NRbd9MZSq5nY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/reverse-sear-steak-FT-RECIPE0222-5c6f8d9a037a4ca2b170adea0529ba7a.jpg">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4>Steak and Fries</h4>
+                                <p class="detail-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore nihil amet, provident nobis pariatur id iste saepe, sequi facere accusamus molestiae, corrupti tempora autem nemo aliquid repellat dignissimos totam.</p>
+                                <p class="price">$150</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4>Napoli Pizza</h4>
+                                <p class="detail-sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dignissimos blanditiis modi magni aperiam maiores similique corrupti iusto animi a dolores quisquam saepe, veniam alias dolorem adipisci vitae nam ratione?</p>
+                                <p class="price">$90</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="https://media.blueapron.com/recipes/2527/square_newsletter_images/1506122712-1-0002-4623/1002_2PRE08_Beef-Bolognese_89134_WEB_SQ.jpg?quality=80&width=850&format=pjpg">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4>Bolognese Pasta</h4>
+                                <p class="detail-sub">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe quod repellendus aspernatur ipsum recusandae illo magni tenetur commodi dignissimos, velit rem fugit quasi facilis aliquid corporis eum quidem ipsa animi!</p>
+                                <p class="price">$35</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="https://www.smokehouse.com/media/catalog/product/cache/ac8c1910166f39bf44930a5f7935ec52/s/i/signaturesteakburgersampler-8.jpg">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4>Steakhouse Burger</h4>
+                                <p class="detail-sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ducimus deserunt quis quia ipsam fugit esse maiores eveniet perferendis ullam officia, consequatur ea dolores, aliquid placeat sed totam pariatur dicta?</p>
+                                <p class="price">$50</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="https://www.foodandwine.com/thmb/cES4FeDl_Ia6oHIlspte-pfJBUg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/Scalloped-Potatoes-FT-RECIPE0623-fb3e9c1088854a1389133d979f2d1389.jpg">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4>Cheesy Scalloped Potatoes</h4>
+                                <p class="detail-sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente esse nostrum reprehenderit cupiditate odit sed inventore corrupti quaerat suscipit vel aperiam necessitatibus dolores rem doloribus, dolore repellat accusamus sequi eaque.</p>
+                                <p class="price">$75</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="https://www.foodandwine.com/thmb/ft6VUGBgZhMgXa9upu05SEvRAmw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/Roasted-Hot-Honey-Pecan-Sweet-Potato-Salad-FT-RECIPE0522-9f3e59fe10554563bc092e5c48a35296.jpg">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4>Roasted Honey Sweet Potato Salad</h4>
+                                <p class="detail-sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ducimus deserunt quis quia ipsam fugit esse maiores eveniet perferendis ullam officia, consequatur ea dolores, aliquid placeat sed totam pariatur dicta?</p>
+                                <p class="price">$60</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="detail-card">
+                <img class="detail-img" src="https://www.foodandwine.com/thmb/j6204r6mxVCDrTUMBS2wSDBBurw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/spatchcocked-smoked-turkey-FT-RECIPE1120-2-c20d744158b54b118983ea6bc67ed9ae.jpg">
+                <div class="detail-desc">
+                    <div class="detail-name">
+                        <h4>Special Thanksgiving Turkey</h4>
+                        <p class="detail-sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ducimus deserunt quis quia ipsam fugit esse maiores eveniet perferendis ullam officia, consequatur ea dolores, aliquid placeat sed totam pariatur dicta?</p>
+                        <p class="price">$70</p>
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!--ion icon ekliyorum.-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
+
